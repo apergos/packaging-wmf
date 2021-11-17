@@ -1,0 +1,11 @@
+deb http://mirrors.wikimedia.org/debian/ buster main contrib non-free
+deb-src http://mirrors.wikimedia.org/debian/ buster main contrib non-free
+
+deb http://mirrors.wikimedia.org/debian/ buster-updates main contrib non-free
+deb-src http://mirrors.wikimedia.org/debian/ buster-updates main contrib non-free
+
+deb http://mirrors.wikimedia.org/debian/ buster-backports main contrib non-free
+deb-src http://mirrors.wikimedia.org/debian/ buster-backports main contrib non-free
+
+deb http://apt.wikimedia.org/wikimedia buster-wikimedia main component/php72 thirdparty/hwraid
+deb-src http://apt.wikimedia.org/wikimedia buster-wikimedia main component/php72 thirdparty/hwraid

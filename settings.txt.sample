@@ -1,0 +1,15 @@
+# adjust these settings!
+
+# user name that will appear in various places, for your own convenience
+USER=ariel
+# directory where debian directories will be copied for building packages
+# this should not be the location of the source repo, since it will become
+# cluttered with build artifacts
+DEBS=/home/ariel/git/debs
+
+# full name for git commits
+GITNAME="Ariel T. Glenn"
+# email for git commits
+GITEMAIL="ariel@wikimedia.org"
+# preferred editor
+EDITOR=emacs

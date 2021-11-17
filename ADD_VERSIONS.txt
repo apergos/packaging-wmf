@@ -1,0 +1,9 @@
+How to add a new version to this setup:
+
+* add the new version to the list in the known_distros file, on the same line
+* make a file configs/<newdistro>_wikimedia.list based on one of the ones there already
+* make a file configs/<newdistro>_deb_security.list based on one of the ones there already
+* make a subdir <newdistro>
+* copy the Dockerfile from some other version into it and hack away
+* try building the image and the container, and commit changes when it works
+
